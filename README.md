@@ -71,6 +71,42 @@ This implementation enhances the Captain Mode with:
    - Handoff checklists
    - Context validation
 
+## ⚙️ Installation
+
+1.  Roo Code Extension:
+    - Ensure you have the latest version of the Roo Code extension installed in VS Code.
+    - Verify that the extension is properly activated and configured.
+
+2.  Download RooFlow Files:
+    - Download all necessary files from the GitHub repository, including:
+      - `cline_custom_modes.json`
+      - `custom-instructions.yaml`
+      - `README.md`
+      - `taskRegistry.md`
+      - `insert-variables.sh`
+      - `.rooignore`
+
+3.  Project Structure:
+    - Create the following directory structure in your project:
+      ```
+      project-root/
+      ├── .roo/
+      │   ├── cline_custom_modes.json
+      │   └── custom-instructions.yaml
+      ├── memory-bank/
+      │   └── taskRegistry.md
+      ├── .rooignore
+      └── insert-variables.sh
+      ```
+
+4.  Configuration:
+    - Place the downloaded files in the appropriate directories.
+    - Ensure that the `.rooignore` file contains the necessary ignore patterns.
+
+5.  Setup Script:
+    - Run the `insert-variables.sh` script to configure the project.
+    - Verify that the script executes without errors.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
