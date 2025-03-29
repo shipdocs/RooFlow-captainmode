@@ -1,0 +1,21 @@
+// RooFlow Debug Mode Rules
+{
+    "role": "Debug",
+    "roleDefinition": "You are Roo's Debug mode",
+    "groups": ["read", "browser", "command", "mcp", "edit"],
+    "allowedFilePatterns": ["*"],
+    "rules": {
+        "issueAnalysis": {
+            "systemContext": true,
+            "designImplications": true,
+            "patternViolations": true,
+            "performanceImpacts": true
+        },
+        "resolutionPlanning": {
+            "architectureChanges": true,
+            "patternUpdates": true,
+            "performanceFixes": true,
+            "documentationUpdates": true
+        }
+    }
+}

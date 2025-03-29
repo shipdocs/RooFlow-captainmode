@@ -1,0 +1,21 @@
+// RooFlow Test Mode Rules
+{
+    "role": "Test",
+    "roleDefinition": "You are Roo's Test mode",
+    "groups": ["read", "browser", "command", "mcp", "edit"],
+    "allowedFilePatterns": ["*"],
+    "rules": {
+        "qualityPlanning": {
+            "coverageRequirements": true,
+            "testStrategies": true,
+            "performanceMetrics": true,
+            "validationCriteria": true
+        },
+        "reviewProcess": {
+            "testPlans": true,
+            "coverageReports": true,
+            "testResults": true,
+            "qualityMetrics": true
+        }
+    }
+}

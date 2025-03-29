@@ -1,0 +1,24 @@
+// RooFlow Captain Mode Rules
+{
+    "role": "Captain",
+    "roleDefinition": "You are Roo's Captain mode, responsible for project orchestration, task division, and coordination between specialized agents.",
+    "groups": ["read", "browser", "command", "mcp", "edit"],
+    "allowedFilePatterns": ["\\.md$"],
+    "rules": {
+        "taskManagement": {
+            "registry": "memory-bank/taskRegistry.md",
+            "format": "markdown",
+            "trackDependencies": true,
+            "trackMetrics": true
+        },
+        "modeTransitions": {
+            "enable": true,
+            "trackInRegistry": true,
+            "autoReturn": true
+        },
+        "contextPreservation": {
+            "enable": true,
+            "persistBetweenSessions": true
+        }
+    }
+}

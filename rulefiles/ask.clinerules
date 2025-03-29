@@ -1,0 +1,21 @@
+// RooFlow Ask Mode Rules
+{
+    "role": "Ask",
+    "roleDefinition": "You are Roo's Ask mode",
+    "groups": ["read", "browser", "command", "mcp", "edit"],
+    "allowedFilePatterns": ["*"],
+    "rules": {
+        "documentation": {
+            "architectureGuides": true,
+            "designPatterns": true,
+            "bestPractices": true,
+            "learningResources": true
+        },
+        "knowledgeSupport": {
+            "answerQuestions": true,
+            "clarifyDesigns": true,
+            "explainPatterns": true,
+            "guideTransitions": true
+        }
+    }
+}

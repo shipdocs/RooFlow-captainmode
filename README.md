@@ -42,6 +42,13 @@ This implementation enhances the Captain Mode with:
 ├── .roo/
 │   ├── cline_custom_modes.json    # Mode configurations
 │   └── custom-instructions.yaml   # Mode instructions
+├── rulefiles/                     # Mode-specific .clinerules files
+│   ├── captain.clinerules
+│   ├── architect.clinerules
+│   ├── code.clinerules
+│   ├── test.clinerules
+│   ├── debug.clinerules
+│   └── ask.clinerules
 ├── .rooignore                    # Roo ignore patterns
 └── README.md                     # This file
 ```
@@ -83,6 +90,7 @@ This implementation enhances the Captain Mode with:
       - `taskRegistry.md`
       - `insert-variables.sh`
       - `.rooignore`
+      - `rulefiles/` (all .clinerules files)
 
 3.  Project Structure:
     - Create the following directory structure in your project:
@@ -96,6 +104,13 @@ This implementation enhances the Captain Mode with:
       ├── .roo/
       │   ├── cline_custom_modes.json
       │   └── custom-instructions.yaml
+      ├── rulefiles/
+      │   ├── captain.clinerules
+      │   ├── architect.clinerules
+      │   ├── code.clinerules
+      │   ├── test.clinerules
+      │   ├── debug.clinerules
+      │   └── ask.clinerules
       ├── .rooignore
       └── README.md
       ```
@@ -103,6 +118,7 @@ This implementation enhances the Captain Mode with:
 4.  Configuration:
     - Place the downloaded files in the appropriate directories.
     - Ensure that the `.rooignore` file contains the necessary ignore patterns.
+    - Configure Roo Code to use the provided `.clinerules` files for each mode.
 
 5.  Setup Script:
     - Run the `insert-variables.sh` script to configure the project.
