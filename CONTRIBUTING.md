@@ -30,6 +30,7 @@ To develop RooFlow, you'll need:
 The RooFlow project consists of the following files, which you should place in your project's root directory:
 
 * `.roo/`: A directory containing the system prompts.
+* `system-prompt-captain`: System prompt for Captain mode (project orchestration).
 * `system-prompt-architect`: System prompt for Architect mode.
 * `system-prompt-code`: System prompt for Code mode.
 * `system-prompt-debug`: System prompt for Debug mode.
@@ -37,13 +38,13 @@ The RooFlow project consists of the following files, which you should place in y
 * `system-prompt-test`: System prompt for Test mode.
 * `cline_custom_modes.json`: Defines an optional global Default mode.
 * `.rooignore`: So Roo doesn't ignore memory-bank/ if it's gitignored.
-* `.roomodes`: Defines the custom Test mode.
+* `.roomodes`: Defines the custom Captain and Test modes.
 * `README.md`:  This file.
 * `projectBrief.md`: Optional project brief.
 
 **Memory Bank:**
 
-The `memory-bank/` directory is created automatically by RooFlow.  Do *not* create it manually.
+The `memory-bank/` directory is created automatically by RooFlow.  Do *not* create it manually. Captain mode adds a `taskRegistry.md` file to track tasks and their status.
 
 **Testing:**
 
