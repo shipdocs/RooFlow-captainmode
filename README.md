@@ -48,12 +48,12 @@ This implementation enhances the Captain Mode with:
 │   ├── cline_custom_modes.json    # Mode configurations
 │   └── custom-instructions.yaml   # Mode instructions
 ├── rulefiles/                     # Mode-specific .clinerules files
-│   ├── captain.clinerules
-│   ├── architect.clinerules
-│   ├── code.clinerules
-│   ├── test.clinerules
-│   ├── debug.clinerules
-│   └── ask.clinerules
+│   ├── .clinerules-captain
+│   ├── .clinerules-architect
+│   ├── .clinerules-code
+│   ├── .clinerules-test
+│   ├── .clinerules-debug
+│   └── .clinerules-ask
 ├── .rooignore                    # Roo ignore patterns
 └── README.md                     # This file
 ```
