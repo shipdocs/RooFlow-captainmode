@@ -58,7 +58,7 @@ This implementation enhances the Captain Mode with:
 │   ├── CONTRIBUTING.md
 │   └── insert-variables.sh
 ├── .rooignore                    # Roo ignore patterns
-└── README.md                     # This file
+└── README.md                     # This file (or rooflow-captainmode-README.md if a README.md already exists)
 ```
 
 ## 🚀 Features
@@ -90,6 +90,9 @@ This implementation enhances the Captain Mode with:
 2.  Open the project in VS Code.
 3.  Ensure that the Roo Code extension is installed and activated.
 4.  Select the desired mode (Captain, Architect, Code, Test, Debug, or Ask) in the Roo Code chat panel.
+5.  If you already have a `README.md` file in your project, either:
+    -   Merge the contents of this `README.md` file into your existing `README.md` file.
+    -   Rename this file to `rooflow-captainmode-README.md` to avoid a naming conflict.
 
 ## 🤝 Contributing
 
