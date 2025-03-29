@@ -35,16 +35,17 @@ This implementation enhances the Captain Mode with:
 ```
 .
 ├── config/
-│   ├── default-mode/
-│   │   ├── cline_custom_modes.json   # Mode configurations
-│   │   ├── custom-instructions.yaml  # Mode instructions
-│   │   └── README.md                # Mode documentation
-│   └── .rooignore                   # Roo ignore patterns
+│   └── default-mode/
+│       └── README.md                # Mode documentation
 ├── docs/
 │   ├── captain-mode.md             # Captain mode documentation
 │   └── captain-mode-implementation.md # Implementation details
 ├── memory-bank/
 │   └── taskRegistry.md             # Task tracking system
+├── .roo/
+│   ├── cline_custom_modes.json   # Mode configurations
+│   └── custom-instructions.yaml  # Mode instructions
+├── .rooignore                   # Roo ignore patterns
 └── README.md                       # This file
 ```
 
@@ -90,13 +91,19 @@ This implementation enhances the Captain Mode with:
     - Create the following directory structure in your project:
       ```
       project-root/
+      ├── config/
+      │   └── default-mode/
+      │       └── README.md
+      ├── docs/
+      │   ├── captain-mode.md
+      │   └── captain-mode-implementation.md
+      ├── memory-bank/
+      │   └── taskRegistry.md
       ├── .roo/
       │   ├── cline_custom_modes.json
       │   └── custom-instructions.yaml
-      ├── memory-bank/
-      │   └── taskRegistry.md
       ├── .rooignore
-      └── insert-variables.sh
+      └── README.md
       ```
 
 4.  Configuration:
