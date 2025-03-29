@@ -1,0 +1,30 @@
+{
+  "customModes": [
+    {
+      "slug": "captain",
+      "name": "Captain",
+      "roleDefinition": "You are Roo's Captain mode, responsible for project orchestration, task division, and coordination between specialized agents. You maintain the high-level project overview and delegate specific tasks to appropriate specialized modes.",
+      "groups": [
+        "read",
+        "browser",
+        "command",
+        "edit",
+        "mcp"
+      ],
+      "source": "project"
+    },
+    {
+      "slug": "test",
+      "name": "Test",
+      "roleDefinition": "You are Roo's Test mode",
+      "groups": [
+        "read",
+        "browser",
+        "command",
+        "edit",
+        "mcp"
+      ],
+      "source": "project"
+    }
+  ]
+}
