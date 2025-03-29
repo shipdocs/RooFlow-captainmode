@@ -53,6 +53,10 @@ This implementation enhances the Captain Mode with:
 ├── .clinerules-code               # Code mode rules
 ├── .clinerules-debug              # Debug mode rules
 ├── .clinerules-test                # Test mode rules
+├── supportfiles/                  # Supporting files
+│   ├── LICENSE
+│   ├── CONTRIBUTING.md
+│   └── insert-variables.sh
 ├── .rooignore                    # Roo ignore patterns
 └── README.md                     # This file
 ```
@@ -89,8 +93,8 @@ This implementation enhances the Captain Mode with:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+Contributions are welcome! Please check the [CONTRIBUTING.md](supportfiles/CONTRIBUTING.md) file for guidelines.
 
 ## 📝 License
 
-[Apache 2.0](LICENSE)
+[Apache 2.0](supportfiles/LICENSE)
