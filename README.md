@@ -34,7 +34,7 @@ This implementation enhances the Captain Mode with:
 
 ```
 .
-├── docs/
+├── rooflow-captainmode-docs/
 │   ├── captain-mode.md             # Captain mode documentation
 │   └── captain-mode-implementation.md # Implementation details
 ├── memory-bank/
