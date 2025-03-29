@@ -53,7 +53,7 @@ This implementation enhances the Captain Mode with:
 ├── .clinerules-code               # Code mode rules
 ├── .clinerules-debug              # Debug mode rules
 ├── .clinerules-test                # Test mode rules
-├── supportfiles/                  # Supporting files
+├── rooflow-captainmode-supportfiles/                  # Supporting files
 │   ├── LICENSE
 │   ├── CONTRIBUTING.md
 │   └── insert-variables.sh
@@ -93,8 +93,8 @@ This implementation enhances the Captain Mode with:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please check the [CONTRIBUTING.md](supportfiles/CONTRIBUTING.md) file for guidelines.
+Contributions are welcome! Please check the [CONTRIBUTING.md](rooflow-captainmode-supportfiles/CONTRIBUTING.md) file for guidelines.
 
 ## 📝 License
 
-[Apache 2.0](supportfiles/LICENSE)
+[Apache 2.0](rooflow-captainmode-supportfiles/LICENSE)
