@@ -16,6 +16,9 @@
             "patternUpdates": true,
             "performanceFixes": true,
             "documentationUpdates": true
+        },
+        "modeTransitions": {
+            "autoReturn": true
         }
     }
 }

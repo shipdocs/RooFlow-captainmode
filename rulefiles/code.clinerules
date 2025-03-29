@@ -11,6 +11,9 @@
             "usePatterns": true,
             "maintainStandards": true,
             "updateDocs": true
+        },
+        "modeTransitions": {
+            "autoReturn": true
         }
     }
 }

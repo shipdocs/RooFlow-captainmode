@@ -38,6 +38,11 @@ This implementation enhances the Captain Mode with:
 │   ├── captain-mode.md             # Captain mode documentation
 │   └── captain-mode-implementation.md # Implementation details
 ├── memory-bank/
+│   ├── activeContext.md            # Tracks the current session's context
+│   ├── decisionLog.md              # Records architectural and implementation decisions
+│   ├── productContext.md           # Provides a high-level overview of the project
+│   ├── progress.md                 # Tracks the progress of the project
+│   ├── systemPatterns.md           # (Optional) Documents recurring patterns and standards
 │   └── taskRegistry.md             # Task tracking system
 ├── .roo/
 │   ├── cline_custom_modes.json    # Mode configurations
@@ -78,51 +83,10 @@ This implementation enhances the Captain Mode with:
 
 ## ⚙️ Installation
 
-1.  Roo Code Extension:
-    - Ensure you have the latest version of the Roo Code extension installed in VS Code.
-    - Verify that the extension is properly activated and configured.
-
-2.  Download RooFlow Files:
-    - Download all necessary files from the GitHub repository, including:
-      - `cline_custom_modes.json`
-      - `custom-instructions.yaml`
-      - `README.md`
-      - `taskRegistry.md`
-      - `insert-variables.sh`
-      - `.rooignore`
-      - `rulefiles/` (all .clinerules files)
-
-3.  Project Structure:
-    - Create the following directory structure in your project:
-      ```
-      project-root/
-      ├── docs/
-      │   ├── captain-mode.md
-      │   └── captain-mode-implementation.md
-      ├── memory-bank/
-      │   └── taskRegistry.md
-      ├── .roo/
-      │   ├── cline_custom_modes.json
-      │   └── custom-instructions.yaml
-      ├── rulefiles/
-      │   ├── captain.clinerules
-      │   ├── architect.clinerules
-      │   ├── code.clinerules
-      │   ├── test.clinerules
-      │   ├── debug.clinerules
-      │   └── ask.clinerules
-      ├── .rooignore
-      └── README.md
-      ```
-
-4.  Configuration:
-    - Place the downloaded files in the appropriate directories.
-    - Ensure that the `.rooignore` file contains the necessary ignore patterns.
-    - Configure Roo Code to use the provided `.clinerules` files for each mode.
-
-5.  Setup Script:
-    - Run the `insert-variables.sh` script to configure the project.
-    - Verify that the script executes without errors.
+1.  Clone or download the repository from GitHub.
+2.  Open the project in VS Code.
+3.  Ensure that the Roo Code extension is installed and activated.
+4.  Select the desired mode (Captain, Architect, Code, Test, Debug, or Ask) in the Roo Code chat panel.
 
 ## 🤝 Contributing
 

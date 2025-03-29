@@ -16,6 +16,9 @@
             "clarifyDesigns": true,
             "explainPatterns": true,
             "guideTransitions": true
+        },
+        "modeTransitions": {
+            "autoReturn": true
         }
     }
 }

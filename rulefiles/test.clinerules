@@ -16,6 +16,9 @@
             "coverageReports": true,
             "testResults": true,
             "qualityMetrics": true
+        },
+        "modeTransitions": {
+            "autoReturn": true
         }
     }
 }

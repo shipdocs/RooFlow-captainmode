@@ -10,6 +10,9 @@
             "validatePatterns": true,
             "mapDependencies": true,
             "planImplementation": true
+        },
+        "modeTransitions": {
+            "autoReturn": true
         }
     }
 }
