@@ -61,6 +61,36 @@ This implementation enhances the Captain Mode with:
 └── README.md                     # This file (or rooflow-captainmode-README.md if a README.md already exists)
 ```
 
+## 💥 npm Package
+
+RooFlow Captain Mode is available as an npm package for easy integration into your projects:
+
+```bash
+npm install rooflow-captainmode --save-dev
+```
+
+The package provides:
+- All necessary configuration files
+- Command-line tools for managing tasks and the memory bank
+- Automatic setup and initialization
+
+### npm Scripts
+
+```bash
+# Initialize RooFlow Captain Mode in your project
+npx rooflow-captainmode init
+
+# Manage tasks
+npx rooflow-captainmode tasks list
+npx rooflow-captainmode tasks create "Task description" --mode code
+
+# Manage memory bank
+npx rooflow-captainmode memory-bank status
+npx rooflow-captainmode memory-bank create
+```
+
+For more information, see the [Installation Guide](docs/installation-guide.md).
+
 ## 🚀 Features
 
 1. **Task Dependencies**
@@ -86,13 +116,30 @@ This implementation enhances the Captain Mode with:
 
 ## ⚙️ Installation
 
-1.  Clone or download the repository from GitHub.
-2.  Open the project in VS Code.
-3.  Ensure that the Roo Code extension is installed and activated.
-4.  Select the desired mode (Captain, Architect, Code, Test, Debug, or Ask) in the Roo Code chat panel.
-5.  If you already have a `README.md` file in your project, either:
-    -   Merge the contents of this `README.md` file into your existing `README.md` file.
-    -   Rename this file to `rooflow-captainmode-README.md` to avoid a naming conflict.
+### Quick Start
+
+1. Install via npm (recommended):
+   ```bash
+   npm install rooflow-captainmode --save-dev
+   npx rooflow-captainmode init
+   ```
+
+2. Open your project in VS Code with the Roo Code extension installed.
+
+3. Select "Captain" mode in the Roo Code chat panel.
+
+### Detailed Installation
+
+For detailed installation instructions, configuration options, and usage examples, see the [Installation Guide](docs/installation-guide.md).
+
+### Manual Installation
+
+If you prefer to manually install:
+
+1. Clone or download the repository from GitHub.
+2. Copy the necessary configuration files to your project.
+3. Open the project in VS Code with the Roo Code extension installed.
+4. Select the desired mode in the Roo Code chat panel.
 
 ## 🤝 Contributing
 

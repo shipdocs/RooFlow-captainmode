@@ -1,0 +1,40 @@
+{
+  "name": "rooflow-captainmode",
+  "version": "1.0.0",
+  "description": "Captain Mode implementation for RooFlow with Memory Bank and task management",
+  "main": "dist/index.js",
+  "bin": {
+    "roo": "dist/roo.js",
+    "captain": "dist/cli/index.js",
+    "rooflow-captainmode": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:roo": "tsc src/roo.ts",
+    "build:captain": "tsc src/cli/index.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "dev": "ts-node src/index.ts",
+    "postinstall": "node scripts/postinstall.js",
+    "init": "node scripts/init.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "glob": "^8.1.0",
+    "ignore": "^5.2.4",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
