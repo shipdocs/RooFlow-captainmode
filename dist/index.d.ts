@@ -1,0 +1,13 @@
+import { FileSystemScanner } from './scanner/components/FileSystemScanner';
+import type { FileStats, FileNode, ScanOptions, ProjectStructure } from './scanner/components/FileSystemScanner';
+import { TaskScanner } from './scanner/components/TaskScanner';
+import type { TaskMarker, TaskLocation, DiscoveredTask, TaskScanResults, TaskScanOptions, Priority } from './scanner/components/TaskScanner';
+import { ContextBuilder } from './scanner/components/ContextBuilder';
+import type { ProjectMetadata, ProjectContext, ContextBuilderOptions } from './scanner/components/ContextBuilder';
+import { RegistryUpdater } from './scanner/components/RegistryUpdater';
+import type { RegistryUpdaterOptions } from './scanner/components/RegistryUpdater';
+export { FileSystemScanner, TaskScanner, ContextBuilder, RegistryUpdater };
+export type { FileStats, FileNode, ScanOptions, ProjectStructure, TaskMarker, TaskLocation, DiscoveredTask, TaskScanResults, TaskScanOptions, Priority, ProjectMetadata, ProjectContext, ContextBuilderOptions, RegistryUpdaterOptions };
+export declare const DEFAULT_SCAN_OPTIONS: ScanOptions;
+export declare const formatSize: (bytes: number) => string;
+export declare const getProjectSummaryMarkdown: (summary: ProjectStructure["summary"]) => string;

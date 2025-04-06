@@ -1,0 +1,26 @@
+# Task Registry
+
+## Project Context
+```json
+{
+  "totalFiles": 0,
+  "totalTasks": 0
+}
+```
+
+## Task Statistics
+
+### By Type
+```json
+{}
+```
+
+### By Priority
+```json
+{}
+```
+
+### By Label
+```json
+{}
+```

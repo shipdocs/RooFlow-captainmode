@@ -109,3 +109,8 @@ Captain Mode needs to be added to cline_custom_modes.json with the following str
 2. Enhanced progress visualization
 3. Task dependency tracking
 4. Performance metrics collection
+5. Initial project scanning (see project-scan-feature.md)
+   - Automated project structure analysis
+   - Task discovery from existing codebase
+   - Context building from project history
+   - Integration with memory bank system
